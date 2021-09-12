@@ -10,7 +10,6 @@ details:not(:last-child) {
  * cursor: pointer; ←カーソルをポインターに
 **/
 details summary {
-  list-style: none;
   cursor: pointer;
   padding: 20px;
   background: #e4e4e4;
