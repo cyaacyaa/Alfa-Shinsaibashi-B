@@ -4,3 +4,27 @@ details {
 details:not(:last-child) {
   margin-bottom: 20px;
 }
+
+details[open] .details-content {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* 透明 */
+    transform: translateY(-10px); /* 上から表示 */
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+summary {
+  cursor: pointer;
+  transition: 0.2s; /* 変化を滑らかに */
+}
+/* ホバー時のスタイル */
+summary:hover {
+  cursor: pointer; /* カーソルを指マークに */
+  background-color: #EFEFEF;
+}
