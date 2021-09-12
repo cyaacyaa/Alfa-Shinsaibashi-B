@@ -71,12 +71,27 @@ Youtube貼り付けここまで -->
             ------------------------------------------------------------------------------------------------------------>
             <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
             
-            <details>
-              <summary>ヒント</summary>
-              ここヒント
-            </details>
+    <!-- STAGE1ヒント　ここから -->
+    <section id="stage1" class="section bg-color--gray">
+      <div class="container">
+        <h2 class="section-title section-title--keycolor">STAGE：1</h2>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <h3 class="card__title">ヒント<svg class="card__arrow"><use xlink:href="#arrow"></use></svg></h3>
+              <p class="card__content">動画を最後までみてみよう！</p>
+            </div>
           </div>
-        </section>
+          <div class="column">
+            <div class="card">
+              <h3 class="card__title">答え<svg class="card__arrow"><use xlink:href="#arrow"></use></svg></h3>
+              <p class="card__content">あああ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- STAGE1ヒント　ここまで -->
         <!-- STAGE1解答入力セクション　ここまで -->
 
         <!-- STAGE1クリア画面　ここから -->
@@ -283,6 +298,7 @@ STAGE3-3追加　ここまで -->
         <p class="text-center">株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
     </div>
   </footer>
+  <script type="text/javascript" src="js/sample.js"></script>
   <script src="assets/js/hint.js"></script> 
   <script src="https://unpkg.com/vue@next"></script>
   <script src="assets/js/main.js"></script>
