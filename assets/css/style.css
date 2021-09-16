@@ -16,17 +16,17 @@ html {
 }
 
 body {
-  background-color: #000000;
-  overflow-x: hidden;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  font-size: 18px;
-  line-height: 1.77778;
-  font-weight: bold;
-  text-decoration: none;
-  border: none;
-  list-style: none;
-  color: #ffffff;
-  margin: 0;
+    overflow-x: hidden;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    font-size: 18px;
+    line-height: 1.77778;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    color: #000;
+    margin: 0;
+    background-color: #232323;
 }
 
 img {
