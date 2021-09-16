@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  background-color: ;
+  background-color: #000000;
+  color: #ffffff;
   overflow-x: hidden;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   font-size: 18px;
